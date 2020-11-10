@@ -1,0 +1,31 @@
+{
+  "name": "wolfpack-mmm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nandorojo/swr-firestore": "^0.16.0",
+    "@theme-ui/presets": "^0.3.0",
+    "filepond": "^4.23.1",
+    "filepond-plugin-image-crop": "^2.0.4",
+    "filepond-plugin-image-exif-orientation": "^1.0.9",
+    "filepond-plugin-image-preview": "^4.6.4",
+    "final-form": "^4.20.1",
+    "firebase": "^8.0.0",
+    "framer-motion": "^2.9.4",
+    "nanoid": "^3.1.16",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-filepond": "^7.1.0",
+    "react-final-form": "^6.5.2",
+    "react-firebase-hooks": "^2.2.0",
+    "react-images-upload": "^1.2.8",
+    "swr": "^0.3.8",
+    "theme-ui": "^0.3.1"
+  }
+}

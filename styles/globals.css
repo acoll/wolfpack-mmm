@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+}
+
+body > div {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes noise {
+  0% {
+    transform: translateX(0px, 0px);
+  }
+  10% {
+    transform: translate(-500px, 500px);
+  }
+  20% {
+    transform: translate(450px, -500px);
+  }
+  30% {
+    transform: translate(-500px, 500px);
+  }
+  40% {
+    transform: translate(500px, -450px);
+  }
+  50% {
+    transform: translate(-500px, 200px);
+  }
+  60% {
+    transform: translate(-400px, -500px);
+  }
+  70% {
+    transform: translateY(50px, 500px);
+  }
+  80% {
+    transform: translate(500px, -450px);
+  }
+  90% {
+    transform: translate(0px, 400px);
+  }
+  100% {
+    transform: translate(-500px, 500px);
+  }
+}
